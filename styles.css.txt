@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.poster {
+    width: 500px;
+    height: 700px;
+    background-image: url('your-poster-image.jpg'); /* 替換為你的海報底圖路徑 */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#poster-text {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+#text-input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+}
